@@ -1,0 +1,33 @@
+.landing{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position:center;
+    overflow: hidden;
+}
+
+.button{
+    margin-top: -7vh;
+    margin-left: 90vw;
+    border-radius: 30px;
+    align-content: center;
+}
+
+.bt1{
+    border-radius: 500px;
+    padding: 12px 16px;
+    background-color: #EEEEEE;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: UberMoveText, sans-serif;
+}
+
+.content{
+    font-weight: 600;
+    font-size:52px;
+    font-family: UberMove, sans-serif;
+    margin-left: 2.5vw;
+    margin-top: 26vh;
+
+}

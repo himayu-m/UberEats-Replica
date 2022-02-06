@@ -1,0 +1,100 @@
+html,
+body {
+  margin: 0;
+}
+
+#App {
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+#page-wrap {
+  text-align: center;
+  overflow: auto;
+  top: 45%;
+  position: relative;
+}
+
+.bm-item {
+  display: inline-block;
+
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 20px;
+  color: black;
+  transition: color 0.2s;
+  font-size:18px;
+  font-weight: 500;
+}
+
+.bm-item:hover {
+  color: rgb(0, 0, 0);
+}
+
+.bm-burger-button {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 36px;
+  top: 20px;
+  margin-top: 1vh;
+  
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background:black;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: black;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: rgb(255, 255, 255);
+  padding: 2.5em 1.5em 0;
+  font-size: 1.35em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: black;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: white;
+}
+
+.bm-icon{
+  height: 20px;
+}
+
+.btnlog{
+  margin-top: 55vh;
+  color: white;
+  width: 100%;
+  background-color: black;
+  padding: 12px 16px;
+  min-height: 56px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btnlog:hover{
+  color: white;
+  background-color: black;
+}

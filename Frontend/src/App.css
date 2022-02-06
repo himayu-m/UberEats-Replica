@@ -1,0 +1,108 @@
+body,html,.App, #root{
+  height: 100%;
+  margin:0
+}
+
+.credentials{
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:rgb(255, 255, 255);
+}
+.form-signin {
+  position: relative;
+  top: 10vh;
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .title {
+    text-align: center;
+  }
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.signin{
+  display: inline-block;
+  margin-right: 0.5vw;
+  margin-left: 3vw;
+}
+
+.title{
+  font-weight: bold;
+}
+
+.transferOption{
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.transferOption label{
+  margin-right: 0.5vw;
+}
+
+ select.form-control{
+  width: 35%;
+  margin: auto;
+  margin-bottom: 3vh;
+}
+.btn1{
+display: block;
+margin: auto;
+width: 100%;
+margin-top:3vh;
+background-color: #3e9920;
+}
+
+.hide{
+  display:none
+}
+
+.login-a{
+  color:#3e9920;
+  cursor: pointer;
+  text-decoration: none;
+   
+
+}
+
+.login-a:hover{
+  color:#3e9920;
+}
+
+.display--inline{
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  float: none!important;
+  font-family: UberMoveText, sans-serif;
+  display: block;
+}
+
+/* .Toastify__toast-theme--colored.Toastify__toast--success {
+  color: rgb(5,124,68);
+  color:black
+} */

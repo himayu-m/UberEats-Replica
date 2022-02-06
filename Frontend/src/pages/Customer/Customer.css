@@ -1,0 +1,50 @@
+article {
+    position: relative;
+    width: 140px;
+    height: 40px;
+    margin: 6px;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 500px;
+    background-color: #EEEEEE;
+    font-size: 14;
+  }
+  
+  article div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+    transition: .5s ease;
+  }
+  
+  article input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 100px;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  input[type=checkbox]:checked ~ div {
+    background-color: black;
+    border-radius: 500px;
+    color:white
+  }
+  
+  .footer{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: black;
+    position:fixed;
+    left:0;
+    right:0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding-bottom:60px;
+  }
